@@ -1,2 +1,2 @@
 # sms
-A class based webapp, implementing a mini school management system
+First class based webapp, implementing a mini school management system
