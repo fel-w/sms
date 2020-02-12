@@ -1,0 +1,172 @@
+    
+    
+    body, h1, h2, h3, h4, h5, h6, p, div {
+        padding: 0px;
+        margin: 0px;
+        outline: none;
+    }
+    fieldset {
+        border: solid 1px #bfbfbf;
+    }
+    
+    body {
+        font: 16px Verdana;
+    
+    }
+    
+     
+    div{
+        background-color:  #e6e6ff;
+        border: #9999ff solid 1px;
+        
+    }
+    header {
+	
+        background-color: #2952a3;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #001a1a;
+    }   
+
+    .label {
+      float: left;
+      width: 160px;
+    }
+    .label:before{
+        content: "*";
+        color:red;
+    }
+    .label2:before{
+        content: "*";
+        color:red;
+    }
+    .red {
+        color: red;
+    }
+    
+    .label1{
+        float: left;
+        width: 160px;        
+    }
+    #divWrap{
+        border: none;
+        width: 960px;
+        margin: 5px auto;
+        background-color: #ffffff;
+    }
+   
+    #divOne{
+        border: none;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color:#9999ff;
+        border: double 1px #001a1a;
+    }
+    #divTwo{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    #divThree{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    #divFour{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    #divFive{
+        border-bottom: none;
+    }
+    #divFive select{
+        width: 400px;
+    }
+    #divSix{
+        text-align: right;
+        padding: 15px;
+        border-top: none;
+        display: none;
+    }
+    #divSix input{
+        padding: 10px;
+        background-color: #2952a3;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        border:  none;
+        text-align: center;
+        width: 100px;
+        margin-right:10px;
+        cursor: pointer;
+    }
+    #divSix input:hover{
+        background-color: #7094db;
+    }
+    #divSix input:active{
+        background-color: #2952a3;
+    }
+    /* The Modal (background) */
+   .modal {
+       display: none; /* Hidden by default */
+       z-index: 1; /* Sit on top */
+       padding:0px; /* Location of the box */
+       margin-left: 480px;
+       margin-top: -100px;
+       width: 450px; /* Full width */
+       border: none;     
+       position: absolute;
+   }
+   
+   /* Modal Content */
+   .modal-content {
+       background-color: #fefefe;
+       margin: auto;
+       padding: 10px;
+       border: 1px solid #888;
+       width: 90%;
+       font-size: 15px;
+   }
+   
+   /* The Close Button */
+   .close {
+        margin-left: 60%;
+   }
+   #upload{
+        border: none;
+   }
+
+   .modal2 {
+       display: none; 
+       position: absolute;
+       margin-top: -1500px;
+       width: 960px; 
+       height: 1500px; 
+       background-color: rgba(0,0,0,0.3) 
+   }
+   
+   .content2 {
+       background-color: white;
+       margin: auto;
+       padding: 40px;
+       border: 1px solid black;
+       width: 50%;
+       margin: 800px auto;
+   }
+   
+   .close2 {
+       float: right;
+       font-size: 28px;
+       font-weight: bold;
+       border: none;
+   }
+   
+   .close2 button:hover,.close2 button:focus{
+       text-decoration: none;
+       cursor: pointer;
+   }

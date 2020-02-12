@@ -1,0 +1,165 @@
+        body, button,a, h1, h2, h3, h4, h5, h6, p, div,span{
+            padding: 0px;
+            margin: 0px;
+            text-indent: 0px;
+            outline: 0;
+			font-family: arial;
+        }
+        img.icon {
+            padding: 5px;               /*CSS for bordering and positioning image itself*/
+            border-radius: 49%;
+            border: 2px solid #666699;
+            background-color: #ffffff;
+            max-height: 150px;
+            max-width: 150px;
+            position: absolute;
+        }
+        a{
+            color: black;
+            text-decoration: none;   
+        }
+        header {
+            position: fixed;
+            background-color: #2952a3;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 200;
+            padding: 20px;
+            border: 1px solid #001a1a;
+            width: 935px;
+            top: 0px;
+            z-index: 1;
+        }
+        .whole{
+            border: none;
+            width: 1000px;
+            margin: 0px auto;
+            background-color: #ffffff;
+         }
+        
+        .info{
+            margin-left: 182px;
+			border-top: solid 1px black;
+            padding:40px;
+            top:128px;
+            position: absolute;
+            padding-top: 60px;
+            width: 710px;
+           
+        }
+        .dash{
+            float:left;
+            position: fixed;
+            border: solid black 1px;
+            top: 65px;
+            width: 168px;
+            bottom: 0%;
+            padding-left: 10px;
+            padding-top: 30px;
+            background-color: #e6e6ff;
+			overflow: auto;
+        }
+        .menu{
+            margin-left: 180px;
+            border: solid 1px black;
+            padding:20px;
+            top:65px;
+            position: fixed;
+            width: 755px;
+            background-color: #666699;
+            z-index: 1;
+        }
+        .welcome{
+            margin-left: 200px;
+            font-size: 30px;
+            line-height: 4;
+        }       
+        .link1{
+            padding:5px;
+            font-size: small;
+        }
+        
+        .menu a{
+            margin-right:89px;
+            padding:10px 15px;
+            background-color: #2952a3;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            border:  none;
+            text-align: center;
+        }
+        .menu a:hover{
+            background-color: #99b3e6;
+        }
+         .menu a:active{
+            background-color: #1f3d7a;
+            color: #ebadad;
+         }
+        
+        .space{
+            line-height: 12;
+        }
+        .dash img{
+            max-height:50px;
+            max-width:50px;
+        }
+		.dash a{
+			color:#CA727A;
+			text-decoration:underline;
+		}
+		.dash a:hover{
+			color:#6666FF;
+			text-decoration:underline;
+		}
+		 
+		.dropbutton {
+			top: -23px;
+			position: absolute;
+			left: 20px;
+			font-size:small;
+			cursor: pointer;
+			padding:10px 15px;
+			background-color: #2952a3;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            border:  none;
+            text-align: center;
+		}
+		.links{
+		   margin-left: 6px;
+		   top:35px;
+		   display: inline-block;
+		   position: absolute;
+		}
+		.dropcontent {
+			display: none;
+			position: absolute;
+			margin-top:12px;
+			left: 20px;
+			background-color: #f9f9f9;
+			width: 110px;
+			border: 1px solid #001a1a;
+		}
+		.dropcontent a {
+			color: black;
+			font-size: 10px;
+			text-decoration: underline;
+			display: block;
+			background-color: #f9f9f9;
+			width:80px;
+			border-radius: 0;
+		}
+		 .dropbutton:hover{
+		   background-color: #99b3e6;
+		}
+		.dropbutton:focus, .dropbutton:active{
+		    background-color: #1f3d7a;
+            color: #ebadad;
+		}
+		
+		.links a:hover {background-color: #E6E6FF;}
+		
+		.show {display:block;}

@@ -1,0 +1,143 @@
+        body, button,a, h1, h2, h3, h4, h5, h6, p, div,span{
+            padding: 0px;
+            margin: 0px;
+            text-indent: 0px;
+            outline: 0;
+			font-family: arial;
+        }
+        
+        a{
+            color: black;
+            text-decoration: none;   
+        }
+        header {
+            background-color:#0D3359 ;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 200;
+            padding: 20px;
+            border: 1px solid #374f62;
+            width: 935px;
+            top: 0px;
+            z-index: 1;
+            position: fixed;
+        }
+        .whole{
+            border: none;
+            width: 1000px;
+            margin: 0px auto;
+            background-color: #ffffff;
+         }
+        .menu{
+            margin-top: 66px;
+            width: 975px;
+            padding: 15px 0;
+            position:fixed;
+            z-index: 1;
+            background-color: #3F5A70;
+        }
+        .menu .link1, .menu .chosen{
+            position: relative;
+            margin-right:50px;
+            padding: 15px;
+            background-color: #03393E;
+            border-radius: 0px;
+            color: white;
+        }
+        .menu .link2{
+            margin-left: 0px;
+            border-radius: 0px;
+            margin-right: 88px;
+            padding: 15px 4px;
+            top: 10px;
+            background-color:#414158;
+            color: white;
+        }
+        .menu .link1:hover{
+            background-color: #416258;
+        }
+         .menu .link1:active{
+            background-color:#03393E;
+            color:#6e0900 ;
+        }
+        .menu .link2:hover{
+             background-color:#7b7b9d ;
+        }
+        .menu .link2:active{
+             background-color:#414158;
+        }
+        .menu .chosen{
+            background-color:#0D3359;
+            color:#6e0900; 
+        }
+        .info{
+                margin-left: 100px;
+		position:absolute;
+		top:160px;
+                
+	}
+        		table {
+			border-collapse: collapse;
+			width: 100%;
+                        height: 100%;
+		}
+
+		table, td, th {
+			border: 1px solid black;
+		}
+		
+		th {
+			background-color:#3F5A70 ;
+			color: white;
+		}
+		td,th{
+			height: 40px;
+			padding: 15px;
+		}
+		#welcome{
+				border: solid 2px #3F5A70;
+				padding: 15px;
+				background-color: #E6E6FF;
+				font-weight: bold;
+				
+		}
+		form {
+				margin: 30px auto;
+				border: 2px  #6666FF solid;   
+				background-color: #9db5c8;
+				margin-left: 32px;
+				margin-right: 72px;
+				padding: 50px;
+				width: 500px;
+		}
+		input[type=submit] {
+			color: white;
+			background-color: #03393E;
+			border-radius: 4px;                 /*CSS for customizing the submit button*/
+			border:none;
+			padding: 8px;
+			width: 120px;
+			text-align: center;
+			margin-top: 10px;
+			margin-left: 320px;
+			cursor: pointer;
+        }
+		input[type=submit]:hover {
+			background-color: #416258;
+		}
+		input[type=submit]:active {
+			background-color: #03393E;
+		}
+		#ua{
+			text-align: center;
+			font-size: 40px;
+			font-weight: bold;
+			color: #416258;
+		}
+		label{
+			float: left;
+			color: #416258;
+			width: 180px;
+			font-weight: bold;
+		}
